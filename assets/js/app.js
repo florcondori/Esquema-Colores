@@ -1,5 +1,5 @@
 window.addEventListener("load", function(){
-	document.body.appendChild(crearEstructura());
+	document.body.insertBefore(crearEstructura(),document.body.firstChild);
 });
 
 var arrayColores=[["red","purple","yellow"],["blue","green","black"]];
