@@ -1,1 +1,51 @@
-main.css
+body{
+	margin: 0;
+	padding: 0;
+}
+#rojo{
+	background: red;
+}
+#purple{
+	background: purple;
+}
+#yellow{
+	background: yellow;
+	top: 0;
+	left: 0;
+}
+#blue{
+	background: blue;
+}
+#green{
+	background: green;
+}
+#black{
+	background: black;
+	top:-50px;
+	left:-50px;
+}
+.contenedor{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	left: 20px;
+	margin-top: 20px;
+}
+.padre{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 50%;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: -50px;
+}
+.hijo{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+}
+
+
